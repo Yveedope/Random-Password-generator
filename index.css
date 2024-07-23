@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  background: #1F2937;
+}
+
+.container {
+  margin-left: 91px;
+  padding-right: 73px;
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: -36px;
+  color: #E5E7EB;
+}
+
+.rp {
+    margin: -21px;
+    padding: 22px;
+    color: #10B981;
+}
+
+p {
+  font-size: 2.6em;
+  color: #9CA3AF;
+}
+
+button {
+  height: 67px;
+  border-radius: 10px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 17px;
+  background: #10B981;
+  color: #E5E7EB;
+  border: none;
+}
+
+#showPword {
+  background: #4B5563;
+  width: 31%;
+  height: 67px;
+  margin: 16px;
+  border-radius: 10px;
+  margin-left: 0;
+}
+
+#password1 {
+  margin: 10px 10px 10px 65px;
+  color: #34D399;
+}
+
+#password2 {
+  margin: 10px 10px 10px 65px;
+  color: #34D399;
+}
+
+.showP {
+  display: flex;
+}
+
+/* Small device styles */
+@media (min-width: 576px) and (max-width: 767px) {
+  #showPword {
+    width: 67%;
+    margin-left: 114px;
+  }
+
+  .showP {
+    display: inline;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  #password1 {
+    margin: 18px;
+    font-size: 40px;
+    padding: 10px;
+  }
+
+  #password2 {
+    margin: 18px;
+    font-size: 40px;
+    padding: 10px;
+  }
+}
+
+/* Medium device styles */
+@media (min-width: 768px) and (max-width: 991px) {
+  #showPword {
+    width: 50%;
+  }
+
+  .container {
+    margin: 61px;
+    padding: 0;
+  }
+
+  #password1 {
+    margin: 18px;
+    font-size: 30px;
+  }
+
+  #password2 {
+    margin: 18px;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  #password1 {
+    margin: 18px;
+    font-size: 30px;
+  }
+
+  #password2 {
+    margin: 18px;
+    font-size: 30px;
+  }
+}
+/* Large device styles */
+@media (min-width: 992px) and (max-width: 1700px) {
+  #showPword {
+    width: 35%;
+  }
+
+  .container {
+    margin: 61px;
+    padding: 0;
+  }
+
+  #password1 {
+    margin: 18px;
+    font-size: 30px;
+  }
+
+  #password2 {
+    margin: 18px;
+    font-size: 30px;
+  }
+}
+
+/* Extra small device styles */
+@media (min-width: 431px) and (max-width: 575px) {
+  #showPword {
+    width: 90%;
+    height: 67px;
+    border-radius: 10px;
+    margin-left: 22px;
+  }
+
+  .showP {
+    display: inline;
+  }
+
+  button {
+    width: 90%;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  #password1 {
+    margin: 18px;
+    font-size: 40px;
+    padding: 10px;
+  }
+
+  #password2 {
+    margin: 18px;
+    font-size: 40px;
+    padding: 10px;
+  }
+}
+
+/* xx small device styles */
+@media (min-width: 375px) and (max-width: 430px) {
+  body {
+    text-align: center;
+  }
+
+  .showP {
+    display: inline;
+  }
+
+  button {
+    width: 90%;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+
+  #showPword {
+    margin-left: 18px;
+    width: 90%;
+  }
+
+  #password1 {
+    margin: 15px;
+    font-size: 30px;
+    padding: 15px;
+  }
+
+  #password2 {
+    margin: 15px;
+    font-size: 30px;
+    padding: 15px;
+  }
+}
+
+/* xxx small device styles */
+@media (min-width: 300px) and (max-width: 374px) {
+  body {
+    text-align: center;
+  }
+
+  .showP {
+    display: inline;
+  }
+
+  button {
+    width: 90%;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+
+  #showPword {
+    margin-left: 18px;
+    width: 90%;
+  }
+
+  #password1 {
+    margin: 15px;
+    font-size: 30px;
+    padding: 15px;
+  }
+
+  #password2 {
+    margin: 15px;
+    font-size: 30px;
+    padding: 15px;
+  }
+}
